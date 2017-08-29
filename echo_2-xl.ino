@@ -1,21 +1,16 @@
 /*
-  ADAVOICE is an Arduino-based voice pitch changer plus WAV playback.
-  Fun for Halloween costumes, comic convention getups and other shenanigans!
+  2-XL Echo project by Adafruit Industries
+  adapted from the ADAVOICE project
 
   Hardware requirements:
   - Arduino Uno, Duemilanove or Diecimila (not Mega or Leonardo compatible).
   - Adafruit Wave Shield
-  - Speaker attached to Wave Shield output
-  - Battery for portable use
+  - amplified input
+  - 2-XL trivia bot
   - SD card
   Software requirements:
   - WaveHC library for Arduino
   - WAV files on FAT-formatted SD card
-
-  This example sketch uses a 3x4 keypad for triggering sounds...but with
-  some changes could be adapted to use several discrete buttons, Hall effect
-  sensors, force-sensing resistors (FSRs), I2C keypads, etc. (or if you just
-  want the voice effect, no buttons at all).
 
   Connections:
   - 3.3V to mic amp+, 1 leg of potentiometer and Arduino AREF pin
